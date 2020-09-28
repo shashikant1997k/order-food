@@ -1,0 +1,10 @@
+
+
+.carousel-item{
+    /* height: 140px; */
+}
+
+.carousel-item > img {
+    border-radius: 15px;
+    object-fit: contain;
+}

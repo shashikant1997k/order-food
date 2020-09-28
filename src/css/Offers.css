@@ -1,0 +1,54 @@
+
+.offers{
+    display: flex;
+    flex-direction: row;
+}
+
+.offers_head{
+    display: flex;
+    flex-direction: column;
+    flex: 0.35;
+    padding: 18px;
+    background: #FAFAFA;
+    border-radius: 15px;
+}
+
+.offers_head > h4{
+    color: #8B9CA8;
+}
+
+.offers_head > h6{
+    color: #3E4E58;
+}
+
+.offers__icons{
+    display: flex;
+    flex-direction: row;
+    flex: 0.65 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.percentage__icons{
+    background: #FF6A6A !important;
+    border-radius: 15px !important;
+    color: white !important;
+}
+
+.wallet__icons{
+    background: #4B73C8 !important;
+    border-radius: 15px !important;
+    color: white !important;
+}
+
+.percentage,.wallet{
+    display: flex;
+    flex-direction: column;
+    color: #8C9DA9;
+    align-items: center;
+    font-weight: 600;
+}
+
+.percentage{
+    margin-right: 15px !important;
+}

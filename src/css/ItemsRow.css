@@ -1,0 +1,37 @@
+
+.itemsRow{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    padding-bottom: 15px;
+    overflow-y: hidden;
+    margin-top: 20px;
+}
+
+.itemsRow::-webkit-scrollbar{
+    display: none;
+}
+
+
+.card_header{
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+.card__content{
+    padding: 8px !important;
+    background: white !important;
+}
+
+.all_cardItems{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.cards > .MuiPaper-root{
+    margin-right: 10px;
+}
